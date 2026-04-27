@@ -38,7 +38,7 @@ Für diesen Zweck soll ein Firmennetzwerk (bzw. Teile daraus als Prototyp) proje
 * **Zugriffsbeschränkung:** * Der Server kann auf einem beliebigen Host aktiviert werden.
     * **Exklusivrecht:** Nur **PC22** ist berechtigt, auf den IoT-Server zuzugreifen und die Daten der IoT-Elemente einzusehen.
 
-    ![Netzwerkaufbau](./bilder/Netzwerkaufbau.png)
+    ![Netzwerkaufbau](./Netzwerkaufbau.png)
     
 ## Infos zur Dimensionierung
 
