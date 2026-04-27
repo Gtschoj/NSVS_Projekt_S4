@@ -1,9 +1,9 @@
 # NSVS_Projekt_S4
 # Workflow
 
-Da bei Packet Tracer keine vortschritt als commit abgespeichert werden kann, muss eine Schritt für Schritt Doku mitgegeben werden.
+Da bei Packet Tracer keine fortschritt als commit abgespeichert werden kann, muss eine Schritt für Schritt Doku mitgegeben werden.
 Jeder Server und Router bekommte eine eigene .txt wo jeder Schritt bzw Befehl vermerkt wird.
-
+siehe /config
 ---
 # Projekt: Netzwerkplanung und -dokumentation
 
