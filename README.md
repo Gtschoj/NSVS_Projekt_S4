@@ -1,5 +1,10 @@
 # NSVS_Projekt_S4
+# Workflow
 
+Da bei Packet Tracer keine vortschritt als commit abgespeichert werden kann, muss eine Schritt für Schritt Doku mitgegeben werden.
+Jeder Server und Router bekommte eine eigene .txt wo jeder Schritt bzw Befehl vermerkt wird.
+
+---
 # Projekt: Netzwerkplanung und -dokumentation
 
 ## Aufgabenstellung
@@ -32,3 +37,36 @@ Für diesen Zweck soll ein Firmennetzwerk (bzw. Teile daraus als Prototyp) proje
 * **Registrierung:** IoT-Elemente (mit privaten IP-Adressen) müssen auf einen zentralen **IoT-Registration-Server** zugreifen können.
 * **Zugriffsbeschränkung:** * Der Server kann auf einem beliebigen Host aktiviert werden.
     * **Exklusivrecht:** Nur **PC22** ist berechtigt, auf den IoT-Server zuzugreifen und die Daten der IoT-Elemente einzusehen.
+
+    ![Netzwerkaufbau](./bilder/Netzwerkaufbau.png)
+    
+## Infos zur Dimensionierung
+
+Das Netzwerk wird basierend auf folgenden Kapazitäten geplant:
+
+| Bereich | Anzahl der Einheiten | Beschreibung |
+| :--- | :--- | :--- |
+| **LAN 1** | X1 Beschäftigte | Abteilung Produktion |
+| **LAN 2** | X2 Beschäftigte | Abteilung Office |
+| **IoT** | X3 Elemente | Lagerhalle / Überwachung |
+
+### IP-Adressplanung
+* **Interner IP-Adressbereich:** [10.31.0.0/16]
+* **Öffentlicher IP-Adressbereich:** X.X.X.X / [Subnetzmaske]
+
+---
+
+## ToDos
+
+### 1. Dokumentation
+Es ist eine vollständige Dokumentation über das projektierte Firmennetzwerk zu erstellen, die folgende Punkte umfasst:
+* **Netzdiagramm:** Visuelle Darstellung der Topologie (Campus, Lagerhalle, Internet-Edge).
+* **Bandbreitenbedarf:** Analyse und Auslegung der benötigten Kapazitäten.
+* **IP-Schema:** Detaillierte Tabelle der Subnetze (VLSM-Planung).
+* **VLAN-Schema:** Zuordnung der IDs, Namen und Ports.
+* **Security:** Dokumentation der Sicherheitsmaßnahmen (ACLs, LAN-Security, NAT/PAT).
+
+### 2. Prototyping
+* Erstellung eines funktionsfähigen Prototypen in **Cisco Packet Tracer**.
+* Nachweis der Konnektivität (Routing & Switching).
+* Verifizierung der Zugriffsregeln (IoT-Server Zugriffsbeschränkung).
