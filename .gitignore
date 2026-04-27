@@ -1,0 +1,7 @@
+# Packet Tracer temporäre Dateien
+*.tmp
+*.bak
+
+# OS-spezifisch
+.directory
+.DS_Store
