@@ -1,9 +1,11 @@
 # NSVS_Projekt_S4
 # Workflow
 
+Schritt 1: Lese Info.txt
 Da bei Packet Tracer keine fortschritt als commit abgespeichert werden kann, muss eine Schritt für Schritt Doku mitgegeben werden.
 Jeder Server und Router bekommte eine eigene .txt wo jeder Schritt bzw Befehl vermerkt wird.
 siehe /config
+
 ---
 # Projekt: Netzwerkplanung und -dokumentation
 
