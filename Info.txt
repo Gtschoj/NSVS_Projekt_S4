@@ -1,0 +1,28 @@
+INFO: Cisco Packet Tracer Projektverwaltung mit Git
+==================================================
+
+Hallo! Damit wir reibungslos zusammenarbeiten können, hier die Kurzinfos zum Setup:
+
+1. SYSTEM-VORAUSSETZUNG (GIT LFS)
+Da .pkt-Dateien Binärdateien sind, nutzen wir Git LFS. Bitte installiere es:
+- Befehl: sudo apt update && sudo apt install git-lfs
+- Danach einmalig: git lfs install
+(Ohne LFS lädst du nur Platzhalter-Dateien herunter!)
+
+2. PROJEKTSTRUKTUR
+- .pkt Datei: Die grafische Topologie.
+- configs/ Ordner: Hier speichern wir Konfigurationen der Geräte als .txt.
+  Grund: In .txt Dateien sehen wir bei Git genau, WER WAS geändert hat (Diff).
+
+3. WORKFLOW-REGELN
+- Kommunikation: Da man .pkt Dateien nicht mergen kann, kurz absprechen wer gerade die Datei offen hat.
+- Best Practice: Vor jedem Commit die Konfigs der Router/Switches in den configs/ Ordner exportieren.
+- Git-Einstellung (wegen Debian/Kubuntu Mix): git config core.autocrlf input
+
+4. GITIGNORE (Wichtig gegen Müll-Dateien)
+Folgendes sollte in die .gitignore:
+*.tmp
+*.bak
+.directory
+
+Lass uns loslegen!
