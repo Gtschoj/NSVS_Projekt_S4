@@ -17,7 +17,6 @@ Da .pkt-Dateien Binärdateien sind, nutzen wir Git LFS. Bitte installiere es:
 3. WORKFLOW-REGELN
 - Kommunikation: Da man .pkt Dateien nicht mergen kann, kurz absprechen wer gerade die Datei offen hat.
 - Best Practice: Vor jedem Commit die Konfigs der Router/Switches in den configs/ Ordner exportieren.
-- Git-Einstellung (wegen Debian/Kubuntu Mix): git config core.autocrlf input
 
 4. GITIGNORE (Wichtig gegen Müll-Dateien)
 Folgendes sollte in die .gitignore:
