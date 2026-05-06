@@ -9,10 +9,3 @@
 # öffentlicher IP-Adressbereich
 
 # git Versuch
-
-```bash
-Error cleaning Git LFS object: open /home/martin/Documents/NSVS/NSVS_Projekt_S4/.git/lfs/tmp/2997337950: permission denied
-Fehler: Schreiben des Pakets fehlgeschlagen: Datenübergabe unterbrochen (broken pipe)
-Fehler: externer Filter 'git-lfs filter-process' fehlgeschlagen
-Schwerwiegend: company_network.pkt: clean-Filter 'lfs' fehlgeschlagen
-```
