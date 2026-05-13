@@ -4,7 +4,7 @@
 - X3 IoT-Elemente
 
 # interner IP-Adressbereich
-192.168.0.0/16 (subject to change)
+10.31.0.0/16 (subject to change)
 
 # öffentlicher IP-Adressbereich
 
