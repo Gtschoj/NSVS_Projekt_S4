@@ -5,7 +5,7 @@ SSID: IoT_WLAN
 # Router/WLAN Access Point
 # IP
 10.31.4.1/24
-DHCP: Start IP Address: 10, Max Users 50 --> SAVE
+DHCP: Start IP Address: 110, Max Users 50 --> SAVE
 
 ## Wireless 2.4G Access Point
 - SSID: IoT_WLAN
@@ -18,4 +18,4 @@ für's Erste direkt verbunden
 ## Services
 - IoT: On
 ## Desktop - IoT Monitor
-irgendeine 10.31.4.100 eingeben - "wrong password" - "Sign up now" - mit diesem user/password kann sich dann ein IoT-Device am IoT-Server einloggen
+im Server-Browser 10.31.4.100 eingeben - "Sign up now" - mit diesem user/password kann sich dann ein IoT-Device am IoT-Server einloggen
