@@ -27,11 +27,5 @@ Folgendes sollte in die .gitignore:
 Lass uns loslegen!
 
 
-Fehlermeldung bei Git add:
-
-```bash
-Error cleaning Git LFS object: open /home/martin/Documents/NSVS/NSVS_Projekt_S4/.git/lfs/tmp/2997337950: permission denied
-Fehler: Schreiben des Pakets fehlgeschlagen: Datenübergabe unterbrochen (broken pipe)
-Fehler: externer Filter 'git-lfs filter-process' fehlgeschlagen
-Schwerwiegend: company_network.pkt: clean-Filter 'lfs' fehlgeschlagen
-```
+DHCP für VLANs:
+https://dev.to/nishanth_abimanyu_001/the-simple-4-step-guide-to-dhcp-server-configuration-for-multiple-vlans-2c4e
