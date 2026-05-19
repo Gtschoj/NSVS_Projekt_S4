@@ -28,5 +28,5 @@ Lass uns loslegen!
 
 
 DHCP für VLANs:
-https://dev.to/nishanth_abimanyu_001/the-simple-4-step-guide-to-dhcp-server-configuration-for-multiple-vlans-2c4e
-https://community.cisco.com/t5/networking-knowledge-base/configuring-ip-helper-address-to-issue-ip-address-from-dhcp/ta-p/4680974
+https://dev.to/nishanth_abimanyu_001/the-simple-4-step-guide-to-dhcp-server-configuration-for-multiple-vlans-2c4e.
+https://community.cisco.com/t5/networking-knowledge-base/configuring-ip-helper-address-to-issue-ip-address-from-dhcp/ta-p/4680974.
