@@ -43,7 +43,7 @@ ciscoasa(config)#route inside 0.0.0.0 0.0.0.0 10.31.0.5
 ciscoasa(config)# route outside 10.31.1.0 255.255.255.0 10.31.0.34
 ```
 
-## Zum einrrichten wird jeder Traffic auf der ACL erlaubt
+## Zum einrichten wird jeder IP Traffic auf der ACL erlaubt
 ```text
 ciscoasa(config)#access-list ALLOW_ALL extended permit ip any any
 ciscoasa(config)#access-group ALLOW_ALL in interface outside
