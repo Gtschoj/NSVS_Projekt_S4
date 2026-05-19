@@ -51,3 +51,15 @@ Router(config-subif)# ip address 10.31.30.1 255.255.255.0
 
 Router# write memory
 ```
+## Helper Adresse einrichten
+```text
+Router(config)# interface GigabitEthernet0/0.10
+Router(config-subif)# ip helper-address 10.31.30.100
+Router(config-subif)# exit
+
+Router(config)# interface GigabitEthernet0/0.20
+Router(config-subif)# ip helper-address 10.31.30.100
+Router(config-subif)# exit
+
+Router# write memory
+```
