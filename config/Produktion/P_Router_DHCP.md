@@ -32,12 +32,12 @@ Router(config)#ip dhcp excluded-address 10.31.2.129
 Router(config)#ip dhcp pool VLAN10_POOL
 Router(dhcp-config)#network 10.31.2.0 255.255.255.128
 Router(dhcp-config)#default-router 10.31.2.1
-Router(dhcp-config)#dns-server 0.0.0.0
+Router(dhcp-config)#dns-server 10.31.3.2
 
 Router(config)#ip dhcp pool VLAN20_POOL
 Router(dhcp-config)#network 10.31.2.0 255.255.255.128
 Router(dhcp-config)#default-router 10.31.22.128
-Router(dhcp-config)#dns-server 0.0.0.0
+Router(dhcp-config)#dns-server 10.31.3.2
 Router(dhcp-config)#end
 e
 Router#wr
@@ -53,4 +53,12 @@ Router(config-if)#no shutdown
 ## Route to ISA1
 ```text
 Router(config)# ip route 0.0.0.0 0.0.0.0 10.31.0.37
+```
+
+## SNMP
+```text
+configure terminal
+snmp-server community public RO
+exit
+write memory
 ```
