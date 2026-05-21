@@ -75,3 +75,11 @@ Router(config-if)#no shutdown
 ```text
 Router(config)# ip route 0.0.0.0 0.0.0.0 10.31.0.33
 ```
+
+## SNMP
+```text
+configure terminal
+snmp-server community public RO
+exit
+write memory
+```
