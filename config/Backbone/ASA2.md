@@ -28,7 +28,7 @@ ciscoasa(config-if)#exit
 ## Setting Security from Office
 ```text
 ciscoasa(config)#interface GigabitEthernet 1/2
-ciscoasa(config-if)#nameif outside
+ciscoasa(config-if)#nameif ininside
 INFO: Security level for "outside" set to 0 by default.
 ciscoasa(config-if)#no shutdown
 ```
@@ -45,7 +45,7 @@ ciscoasa(config)# route outside 10.31.1.0 255.255.255.0 10.31.0.34
 
 ## Zum einrichten wird jeder IP Traffic auf der ACL erlaubt
 ```text
-ciscoasa(config)#access-list ALLOW_ALL extended permit ip any any
-ciscoasa(config)#access-group ALLOW_ALL in interface outside
-ciscoasa(config)#access-group ALLOW_ALL in interface inside
+access-list ALLOW_ALL extended permit ip any any
+access-group ALLOW_ALL in interface ininside
+access-group ALLOW_ALL in interface inside
 ```
