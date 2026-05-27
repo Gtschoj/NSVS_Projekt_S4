@@ -33,7 +33,7 @@
 
 ---
 
-| Verbindung | Subnetz | Netzmaske | IP Firewall (Inside) | IP Router (Outside) |
+| Verbindung | Subnetz | Netzmaske | IP Firewall (Inside) | IP Router (Inside) |
 | :--- | :---: | :--- | :--- | :--- |
 | **Transit Office** | `10.31.0.32/30` | `255.255.255.252` | `10.31.0.33` | `10.31.0.34` |
 | **Transit Produktion** | `10.31.0.36/30` | `255.255.255.252` | `10.31.0.37` | `10.31.0.38` |
