@@ -5,7 +5,7 @@ ciscoasa(config)#interface GigabitEthernet1/1
 ciscoasa(config-if)#nameif inside
 ciscoasa(config-if)#securty-level 100
 ciscoasa(config-if)#no shutdown
-ciscoasa(config-if)#ip address 10.31.10.2 255.255.255.252
+ciscoasa(config-if)#ip address 10.31.0.2 255.255.255.252
 ```
 
 ## IP G1/2 to Router Internet

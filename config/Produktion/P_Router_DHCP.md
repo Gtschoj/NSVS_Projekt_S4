@@ -50,7 +50,7 @@ Router(config-if)#ip address 10.31.0.38 255.255.255.252
 Router(config-if)#no shutdown
 ```
 
-## Route to ISA1
+## Route to ASA1
 ```text
 Router(config)# ip route 0.0.0.0 0.0.0.0 10.31.0.37
 ```
