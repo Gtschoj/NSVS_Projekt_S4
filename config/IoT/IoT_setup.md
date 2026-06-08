@@ -13,6 +13,8 @@ DHCP: Start IP Address: 110, Max Users 50 --> SAVE
 
 # Server IoT
 für's Erste direkt verbunden
+Username: IoTDevice
+Password: IoTDevice
 ## IP
 10.31.4.100/24
 ## Services
