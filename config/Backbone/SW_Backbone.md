@@ -31,7 +31,7 @@ interface vlan 40
  no shutdown
 
 interface vlan 50
- ip address 10.31.0.13 255.255.255.252
+ ip address 10.31.4.254 255.255.255.0
  no shutdown
 exit
 ```
@@ -86,4 +86,8 @@ ip route 10.31.2.0 255.255.255.0 10.31.0.10
 ## routing DMZ
 ```text
 ip route 10.31.3.0 255.25.255.0 10.31.0.2
+```
+## routing IoT
+```text
+ip route 10.31.4.0 255.255.255.0 10.31.4.1
 ```
