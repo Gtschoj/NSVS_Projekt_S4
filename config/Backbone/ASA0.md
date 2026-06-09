@@ -3,7 +3,7 @@
 ciscoasa#configure terminal
 ciscoasa(config)#interface GigabitEthernet1/1
 ciscoasa(config-if)#nameif inside
-ciscoasa(config-if)#securty-level 100
+ciscoasa(config-if)#securty-level 10
 ciscoasa(config-if)#no shutdown
 ciscoasa(config-if)#ip address 10.31.0.2 255.255.255.252
 ```
@@ -26,10 +26,7 @@ ciscoasa(config)#access-group ALLOW_ALL in interface inside
 
 ## Routing to SW_Backbone
 ```text
-ciscoasa(config)#route inside 0.0.0.0 0.0.0.0 10.31.0.1
-```
-
-## Routing to DNS Internet
-```text
-ciscoasa(config)# route outside 10.31.3.0 255.255.255.0 10.31.0.42
+ciscoasa(config)#route inside 10.31.0.0 255.255.0.0 10.31.0.1
+ciscoasa(config)#route outside 10.31.3.0 255.255.255.0 10.31.0.42 1
+ciscoasa(config)#route outside 0.0.0.0 0.0.0.0 10.31.0.42
 ```
