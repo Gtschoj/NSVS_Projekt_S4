@@ -98,7 +98,7 @@ Anpassung für die Internet- & DMZ-Firewall (ASA0)
 
         interface GigabitEthernet1/1 (Richtung SW-Backbone)
 
-            nameif inside (Siche   rheitsstufe 10)
+            nameif inside (Sicherheitsstufe 10)
 
             IP-Adresse: 10.31.0.2.
 
@@ -120,6 +120,8 @@ access-list BACKBONE_IN extended permit icmp 10.31.1.0 255.255.255.0 host 10.31.
 access-list BACKBONE_IN extended permit icmp 10.31.2.0 255.255.255.0 host 10.31.3.2
 # Erlaubt das Pingen der Router-Schnittstelle (Transit Internet) zu Testzwecken
 access-list BACKBONE_IN extended permit icmp any host 10.31.0.42
+# Erlaubt das Pingen des "Internets"
+access-list BACKBONE_IN extended permit icmp any any
 
 # --- ACL AKTIVIEREN & INSPECTION ---
 # Wir binden die Liste an das INSIDE-Interface (da der Traffic dort hineinfließt)
