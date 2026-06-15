@@ -22,7 +22,7 @@ Die Sicherheit wird durch eine strikte Segmentierung mittels dedizierter Firewal
 | :--- | :--- | :--- |
 | **Internet-Grenze (`ASA0`)** | Cisco ASA 5506-X | Schützt den Backbone vor dem öffentlichen Internet. Erlaubt nur von innen initiierte Verbindungen. |
 | **Office-Schutz (`ASA2`)** | Cisco ASA 5506-X | Isoliert sensible Unternehmensdaten (IT, Verwaltung) vor Zugriffen aus anderen internen Netzen. |
-| **Produktion-Schutz (`ISA1`)** | Cisco ASA 5506-X  | Ioliert die Produktion und somit die Maschinen von unerlaubten Zugriff |
+| **Produktion-Schutz (`ASA1`)** | Cisco ASA 5506-X  | Ioliert die Produktion und somit die Maschinen von unerlaubten Zugriff |
 
 ### Out-of-Band (OOB) Management
 Die Administration der Firewalls erfolgt physisch getrennt über die **Management-Schnittstellen (`Ma1/1`)** und dedizierte Admin-PCs. Dies verhindert unbefugten Zugriff über produktive Datenleitungen und sichert den Zugriff bei Netzwerkausfällen.
